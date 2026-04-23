@@ -4,5 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+<script>window.location.replace("http://0xmrgrep.in");</script>
+<noscript><meta http-equiv="refresh" content="0; url=http://0xmrgrep.in"></noscript>
+
+Redirecting to [0xmrgrep.in](http://0xmrgrep.in)&hellip;
