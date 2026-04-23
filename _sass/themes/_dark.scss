@@ -14,8 +14,8 @@
   --label-color: #a7a7a7;
   --blockquote-border-color: rgb(66 66 66);
   --blockquote-text-color: #868686;
-  --link-color: rgb(138 180 248);
-  --link-underline-color: rgb(82 108 150);
+  --link-color: #00ff88;
+  --link-underline-color: #00c864;
   --button-bg: #1e1e1e;
   --btn-border-color: #2e2f31;
   --btn-backtotop-color: var(--text-color);
@@ -37,7 +37,7 @@
   --sidebar-bg: #1e1e1e;
   --sidebar-border-color: #292929;
   --sidebar-muted-color: #868686;
-  --sidebar-active-color: rgb(255 255 255 / 95%);
+  --sidebar-active-color: #00ff88;
   --sidebar-hover-bg: #262626;
   --sidebar-btn-bg: #232328;
   --sidebar-btn-color: #787878;
@@ -46,25 +46,25 @@
   /* Topbar */
   --topbar-bg: rgb(27 27 30 / 64%);
   --topbar-text-color: var(--text-color);
-  --search-border-color: rgb(55 55 55);
-  --search-icon-color: rgb(100 102 105);
-  --input-focus-border-color: rgb(112 114 115);
+  --search-border-color: #a00000;
+  --search-icon-color: #00ff88;
+  --input-focus-border-color: #00ff88;
 
   /* Home page */
   --post-list-text-color: rgb(175 176 177);
   --btn-patinator-text-color: var(--text-color);
-  --btn-paginator-hover-color: #2e2e2e;
+  --btn-paginator-hover-color: #ff2d55;
 
   /* Posts */
-  --toc-highlight: rgb(116 178 243);
+  --toc-highlight: #00ff88;
   --toc-popup-border-color: #373737;
-  --tag-hover: rgb(43 56 62);
+  --tag-hover: rgb(255 45 85 / 25%);
   --tb-odd-bg: #252526; /* odd rows of the posts' table */
   --tb-even-bg: rgb(31 31 34); /* even rows of the posts' table */
   --tb-border-color: var(--tb-odd-bg);
-  --footnote-target-bg: rgb(63 81 181);
+  --footnote-target-bg: rgb(255 45 85 / 40%);
   --btn-share-color: #6c757d;
-  --btn-share-hover-color: #bfc1ca;
+  --btn-share-hover-color: #ff2d55;
   --card-bg: #1e1e1e;
   --card-hover-bg: #464d51;
   --card-shadow: rgb(21 21 21 / 72%) 0 6px 18px 0,
@@ -91,7 +91,7 @@
   /* Categories */
   --categories-border: rgb(64 66 69 / 50%);
   --categories-hover-bg: rgb(73 75 76);
-  --categories-icon-hover-color: white;
+  --categories-icon-hover-color: #00ff88;
 
   /* Archive */
   --timeline-node-bg: rgb(150 152 156);
@@ -108,7 +108,7 @@
   --code-header-text-color: #6a6a6a;
   --code-header-muted-color: #353535;
   --code-header-icon-color: #565656;
-  --clipboard-checked-color: #2bcc2b;
+  --clipboard-checked-color: #00ff88;
   --filepath-text-color: #cacaca;
 
   .light {

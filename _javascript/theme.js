@@ -99,13 +99,16 @@ class Theme {
   }
 
   /**
-   * Flips the current theme mode
+   * Flips the current theme mode.
+   *
+   * Defaults to dark when no mode has been chosen yet, so the first click
+   * always takes the user to light.
    */
   static flip() {
-    if (this.#hasMode) {
-      this.#clearMode();
+    if (this.#mode === this.LIGHT) {
+      this.#setDark();
     } else {
-      this.#sysDark ? this.#setLight() : this.#setDark();
+      this.#setLight();
     }
     this.#notify();
   }
