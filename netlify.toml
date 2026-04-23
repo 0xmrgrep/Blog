@@ -1,0 +1,9 @@
+[build]
+  command = "npm install && npm run build && bundle exec jekyll build"
+  publish = "_site"
+
+[build.environment]
+  NODE_VERSION = "20"
+  RUBY_VERSION = "3.3.5"
+  JEKYLL_ENV = "production"
+  NODE_ENV = "production"
