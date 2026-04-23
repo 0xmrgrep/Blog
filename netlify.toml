@@ -7,3 +7,4 @@
   RUBY_VERSION = "3.3.5"
   JEKYLL_ENV = "production"
   NODE_ENV = "production"
+  HUSKY = "0"
